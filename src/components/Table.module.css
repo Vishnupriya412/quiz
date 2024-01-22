@@ -1,0 +1,70 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #dadada;
+}
+.navBar{
+    background-color: white;
+    width: 15vw;
+    height: 100vh;
+}
+.QuizAnalysis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+    height: 100vh;
+}
+.quizHeading{
+    color: #5076FF;
+    font-size: 40px;
+    font-weight: 500;
+}
+.table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 70vw;
+    height: 20vh;
+    background-color: white;
+    font-weight: 500;
+}
+    
+.tableHeader{
+    height: 4vh;
+    border-radius: 10px;
+}
+.tableRow{
+    color: white;
+    border: none;
+    background-color: #5076FF;
+}
+.icons{
+    display: flex;
+}
+.icon{
+    cursor: pointer;
+}
+li{
+    list-style: none;
+}
+.column1{
+    text-align: center;
+}
+.column2{
+    background-color: #B3C4FF;
+    height: 4vh;
+    text-align: center;
+}
+.column3{
+    text-align: center;
+}
+.column4{
+    background-color: #B3C4FF;
+    height: 4vh;
+    text-align: center;
+}
+.analysisText{
+    text-decoration: underline;
+    font-size: 15px;
+}
