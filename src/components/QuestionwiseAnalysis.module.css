@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    height: 100vh;
+}
+.navBar{
+    width: 15vw;
+    height: 100vh;
+    background-color: white;
+}
+.questionAnalysis{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F0F0F0;
+    padding: 70px;
+    padding-top: 10px;
+}
+.headContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    color: royalblue;
+}
+.quizDetails{
+    line-height: 4px;
+    padding-top: 15px;
+}
+.date{
+    color: orangered;
+}
+.optionContainer{
+    display: flex;
+    gap: 30px;
+}
+.options{
+    width: 300px;
+    height: 15vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 5px;
+}
+.horizontalLine{
+    width: 62vw;
+    border: 1px solid #d0cece;
+    
+}
+.question{
+    font-size: 28px;
+}
+.insideText{
+    font-size: 18px;
+}

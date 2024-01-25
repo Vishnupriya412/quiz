@@ -6,7 +6,7 @@ function Quiz2(){
           <div className={Style.QuizContainer}>
             <div  className={Style.QuestionNumberContainer}>
             <h1 className={Style.QuestionNumber}>01/04</h1>
-            <h1  className={Style.QuizTimer}>00:10s </h1>
+            <h1  className={Style.QuizTimer}>00:10s</h1>
             </div>
             <h1 className={Style.QuizTitle}>Your question text comes here, its a sample text.</h1>
             <div className={Style.OptionsContainer}>
